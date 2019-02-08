@@ -122,6 +122,87 @@ Praktikum5/fast:
 	$(MAKE) -f CMakeFiles\Praktikum5.dir\build.make CMakeFiles/Praktikum5.dir/build
 .PHONY : Praktikum5/fast
 
+ConsoleInterface.obj: ConsoleInterface.cpp.obj
+
+.PHONY : ConsoleInterface.obj
+
+# target to build an object file
+ConsoleInterface.cpp.obj:
+	$(MAKE) -f CMakeFiles\Praktikum5.dir\build.make CMakeFiles/Praktikum5.dir/ConsoleInterface.cpp.obj
+.PHONY : ConsoleInterface.cpp.obj
+
+ConsoleInterface.i: ConsoleInterface.cpp.i
+
+.PHONY : ConsoleInterface.i
+
+# target to preprocess a source file
+ConsoleInterface.cpp.i:
+	$(MAKE) -f CMakeFiles\Praktikum5.dir\build.make CMakeFiles/Praktikum5.dir/ConsoleInterface.cpp.i
+.PHONY : ConsoleInterface.cpp.i
+
+ConsoleInterface.s: ConsoleInterface.cpp.s
+
+.PHONY : ConsoleInterface.s
+
+# target to generate assembly for a file
+ConsoleInterface.cpp.s:
+	$(MAKE) -f CMakeFiles\Praktikum5.dir\build.make CMakeFiles/Praktikum5.dir/ConsoleInterface.cpp.s
+.PHONY : ConsoleInterface.cpp.s
+
+Graph.obj: Graph.cpp.obj
+
+.PHONY : Graph.obj
+
+# target to build an object file
+Graph.cpp.obj:
+	$(MAKE) -f CMakeFiles\Praktikum5.dir\build.make CMakeFiles/Praktikum5.dir/Graph.cpp.obj
+.PHONY : Graph.cpp.obj
+
+Graph.i: Graph.cpp.i
+
+.PHONY : Graph.i
+
+# target to preprocess a source file
+Graph.cpp.i:
+	$(MAKE) -f CMakeFiles\Praktikum5.dir\build.make CMakeFiles/Praktikum5.dir/Graph.cpp.i
+.PHONY : Graph.cpp.i
+
+Graph.s: Graph.cpp.s
+
+.PHONY : Graph.s
+
+# target to generate assembly for a file
+Graph.cpp.s:
+	$(MAKE) -f CMakeFiles\Praktikum5.dir\build.make CMakeFiles/Praktikum5.dir/Graph.cpp.s
+.PHONY : Graph.cpp.s
+
+Test.obj: Test.cpp.obj
+
+.PHONY : Test.obj
+
+# target to build an object file
+Test.cpp.obj:
+	$(MAKE) -f CMakeFiles\Praktikum5.dir\build.make CMakeFiles/Praktikum5.dir/Test.cpp.obj
+.PHONY : Test.cpp.obj
+
+Test.i: Test.cpp.i
+
+.PHONY : Test.i
+
+# target to preprocess a source file
+Test.cpp.i:
+	$(MAKE) -f CMakeFiles\Praktikum5.dir\build.make CMakeFiles/Praktikum5.dir/Test.cpp.i
+.PHONY : Test.cpp.i
+
+Test.s: Test.cpp.s
+
+.PHONY : Test.s
+
+# target to generate assembly for a file
+Test.cpp.s:
+	$(MAKE) -f CMakeFiles\Praktikum5.dir\build.make CMakeFiles/Praktikum5.dir/Test.cpp.s
+.PHONY : Test.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +239,15 @@ help:
 	@echo ... Praktikum5
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... ConsoleInterface.obj
+	@echo ... ConsoleInterface.i
+	@echo ... ConsoleInterface.s
+	@echo ... Graph.obj
+	@echo ... Graph.i
+	@echo ... Graph.s
+	@echo ... Test.obj
+	@echo ... Test.i
+	@echo ... Test.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

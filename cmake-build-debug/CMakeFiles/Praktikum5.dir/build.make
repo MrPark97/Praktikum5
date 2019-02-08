@@ -69,19 +69,64 @@ CMakeFiles/Praktikum5.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Praktikum5.dir/main.cpp.s"
 	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\MrPark\CLionProjects\Praktikum5\main.cpp -o CMakeFiles\Praktikum5.dir\main.cpp.s
 
+CMakeFiles/Praktikum5.dir/ConsoleInterface.cpp.obj: CMakeFiles/Praktikum5.dir/flags.make
+CMakeFiles/Praktikum5.dir/ConsoleInterface.cpp.obj: ../ConsoleInterface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\MrPark\CLionProjects\Praktikum5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Praktikum5.dir/ConsoleInterface.cpp.obj"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Praktikum5.dir\ConsoleInterface.cpp.obj -c C:\Users\MrPark\CLionProjects\Praktikum5\ConsoleInterface.cpp
+
+CMakeFiles/Praktikum5.dir/ConsoleInterface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Praktikum5.dir/ConsoleInterface.cpp.i"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\MrPark\CLionProjects\Praktikum5\ConsoleInterface.cpp > CMakeFiles\Praktikum5.dir\ConsoleInterface.cpp.i
+
+CMakeFiles/Praktikum5.dir/ConsoleInterface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Praktikum5.dir/ConsoleInterface.cpp.s"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\MrPark\CLionProjects\Praktikum5\ConsoleInterface.cpp -o CMakeFiles\Praktikum5.dir\ConsoleInterface.cpp.s
+
+CMakeFiles/Praktikum5.dir/Graph.cpp.obj: CMakeFiles/Praktikum5.dir/flags.make
+CMakeFiles/Praktikum5.dir/Graph.cpp.obj: ../Graph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\MrPark\CLionProjects\Praktikum5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Praktikum5.dir/Graph.cpp.obj"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Praktikum5.dir\Graph.cpp.obj -c C:\Users\MrPark\CLionProjects\Praktikum5\Graph.cpp
+
+CMakeFiles/Praktikum5.dir/Graph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Praktikum5.dir/Graph.cpp.i"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\MrPark\CLionProjects\Praktikum5\Graph.cpp > CMakeFiles\Praktikum5.dir\Graph.cpp.i
+
+CMakeFiles/Praktikum5.dir/Graph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Praktikum5.dir/Graph.cpp.s"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\MrPark\CLionProjects\Praktikum5\Graph.cpp -o CMakeFiles\Praktikum5.dir\Graph.cpp.s
+
+CMakeFiles/Praktikum5.dir/Test.cpp.obj: CMakeFiles/Praktikum5.dir/flags.make
+CMakeFiles/Praktikum5.dir/Test.cpp.obj: ../Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\MrPark\CLionProjects\Praktikum5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Praktikum5.dir/Test.cpp.obj"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Praktikum5.dir\Test.cpp.obj -c C:\Users\MrPark\CLionProjects\Praktikum5\Test.cpp
+
+CMakeFiles/Praktikum5.dir/Test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Praktikum5.dir/Test.cpp.i"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\MrPark\CLionProjects\Praktikum5\Test.cpp > CMakeFiles\Praktikum5.dir\Test.cpp.i
+
+CMakeFiles/Praktikum5.dir/Test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Praktikum5.dir/Test.cpp.s"
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\MrPark\CLionProjects\Praktikum5\Test.cpp -o CMakeFiles\Praktikum5.dir\Test.cpp.s
+
 # Object files for target Praktikum5
 Praktikum5_OBJECTS = \
-"CMakeFiles/Praktikum5.dir/main.cpp.obj"
+"CMakeFiles/Praktikum5.dir/main.cpp.obj" \
+"CMakeFiles/Praktikum5.dir/ConsoleInterface.cpp.obj" \
+"CMakeFiles/Praktikum5.dir/Graph.cpp.obj" \
+"CMakeFiles/Praktikum5.dir/Test.cpp.obj"
 
 # External object files for target Praktikum5
 Praktikum5_EXTERNAL_OBJECTS =
 
 Praktikum5.exe: CMakeFiles/Praktikum5.dir/main.cpp.obj
+Praktikum5.exe: CMakeFiles/Praktikum5.dir/ConsoleInterface.cpp.obj
+Praktikum5.exe: CMakeFiles/Praktikum5.dir/Graph.cpp.obj
+Praktikum5.exe: CMakeFiles/Praktikum5.dir/Test.cpp.obj
 Praktikum5.exe: CMakeFiles/Praktikum5.dir/build.make
 Praktikum5.exe: CMakeFiles/Praktikum5.dir/linklibs.rsp
 Praktikum5.exe: CMakeFiles/Praktikum5.dir/objects1.rsp
 Praktikum5.exe: CMakeFiles/Praktikum5.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\MrPark\CLionProjects\Praktikum5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Praktikum5.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\MrPark\CLionProjects\Praktikum5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Praktikum5.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Praktikum5.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

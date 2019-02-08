@@ -82,6 +82,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/MrPark/CLionProjects/Praktikum5/ConsoleInterface.cpp">
+			<Option target="Praktikum5"/>
+		</Unit>
+		<Unit filename="C:/Users/MrPark/CLionProjects/Praktikum5/ConsoleInterface.h">
+			<Option target="Praktikum5"/>
+		</Unit>
+		<Unit filename="C:/Users/MrPark/CLionProjects/Praktikum5/Graph.cpp">
+			<Option target="Praktikum5"/>
+		</Unit>
+		<Unit filename="C:/Users/MrPark/CLionProjects/Praktikum5/Graph.h">
+			<Option target="Praktikum5"/>
+		</Unit>
+		<Unit filename="C:/Users/MrPark/CLionProjects/Praktikum5/Test.cpp">
+			<Option target="Praktikum5"/>
+		</Unit>
+		<Unit filename="C:/Users/MrPark/CLionProjects/Praktikum5/Test.h">
+			<Option target="Praktikum5"/>
+		</Unit>
 		<Unit filename="C:/Users/MrPark/CLionProjects/Praktikum5/main.cpp">
 			<Option target="Praktikum5"/>
 		</Unit>
