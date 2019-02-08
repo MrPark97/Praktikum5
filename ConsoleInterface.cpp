@@ -109,7 +109,7 @@ int ConsoleInterface::run()
                 cout << "FLOYD-WARSHALL MODE" << endl;
                 break;
             default:
-                break;
+             break;
         };
 
         cout << "Checked vector is: ";
@@ -135,4 +135,24 @@ int ConsoleInterface::run()
         cout << db[best_index][i] << ' ';
     }
     cout << endl;
+}
+
+void ConsoleInterface::setData(unsigned  long long k, unsigned long long l, unsigned long long m, unsigned long long n, vector<vector<int> > &edges, vector<vector<int> > &db, vector<int> &query)
+{
+    this->k = k;
+    this->l = l;
+    this->m = m;
+    this->n = n;
+    this->g.setGraph(k, l, edges);
+    this->db.insert(this->db.begin(), db.begin(), db.end());
+    this->query.insert(this->query.begin(), query.begin(), query.end());
+}
+
+void ConsoleInterface::solve()
+{
+    int c = 0;
+    while(step())
+    {
+        c++; // c++ is a general-purpose programming language.
+    }
 }

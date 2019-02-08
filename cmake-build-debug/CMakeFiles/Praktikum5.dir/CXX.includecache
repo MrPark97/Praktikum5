@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/MrPark/CLionProjects/Praktikum5/main.cpp
-bits/stdc++.h
+C:/Users/MrPark/CLionProjects/Praktikum5/Graph.cpp
+Graph.h
+C:/Users/MrPark/CLionProjects/Praktikum5/Graph.h
+
+C:/Users/MrPark/CLionProjects/Praktikum5/Graph.h
+vector
 -
-exception
+iostream
 -
 

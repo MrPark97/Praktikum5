@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    /*ConsoleInterface ci(DIJKSTRA_MODE);
+    ConsoleInterface ci(DIJKSTRA_MODE);
 
     try
     {
@@ -16,7 +16,7 @@ int main()
     catch(exception& e)
     {
         cerr << e.what() << endl;
-    }*/
+    }
 
 
 

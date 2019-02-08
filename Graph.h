@@ -35,6 +35,12 @@ public:
             g[i][i] = 0;
         }
     }
+    Graph(Graph& g)
+    {
+        k = g.k;
+        l = g.l;
+        this->g.insert(this->g.begin(), g.g.begin(), g.g.end());
+    }
     ~Graph()
     {
         g.clear();
@@ -57,11 +63,12 @@ public:
         vector<int> t(k+1, INF);
         g.assign(k+1, t);
         readEdges();
-        for(auto i=1; i <= k; i++)
+        for(auto i=1; i<=k; i++)
         {
             g[i][i] = 0;
         }
     }
+    void setGraph(unsigned long long k, unsigned long long l, vector<vector<int> > &edges);
     char isConnected();
     void dfs(int v);
     void dijkstra(int s);

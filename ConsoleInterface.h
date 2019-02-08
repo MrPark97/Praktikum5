@@ -18,8 +18,10 @@ public:
     int run();
     int step();
     int init();
+    void solve();
     int dijkstraStep();
     int floydWarshallStep();
+    void setData(unsigned long long k, unsigned  long long l, unsigned  long long m, unsigned  long long n, vector<vector<int> > &edges, vector<vector<int> > &db, vector<int> &query);
 private:
     unsigned long long k,l,m,n;
     char mode;

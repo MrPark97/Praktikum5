@@ -62,3 +62,10 @@ char Graph::isConnected()
             return 0;
     return 1;
 }
+
+void Graph::setGraph(unsigned long long k, unsigned long long l, vector<vector<int> > &edges)
+{
+    this->k = k;
+    this->l = l;
+    this->g.insert(this->g.begin(), edges.begin(), edges.end());
+}
