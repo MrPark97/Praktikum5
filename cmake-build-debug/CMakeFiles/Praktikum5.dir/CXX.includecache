@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/MrPark/CLionProjects/Praktikum5/Graph.cpp
+C:/Users/MrPark/CLionProjects/Praktikum5/ConsoleInterface.h
+vector
+-
 Graph.h
 C:/Users/MrPark/CLionProjects/Praktikum5/Graph.h
 
@@ -15,4 +17,26 @@ vector
 -
 iostream
 -
+
+C:/Users/MrPark/CLionProjects/Praktikum5/Test.cpp
+Test.h
+C:/Users/MrPark/CLionProjects/Praktikum5/Test.h
+ctime
+-
+
+C:/Users/MrPark/CLionProjects/Praktikum5/Test.h
+ConsoleInterface.h
+C:/Users/MrPark/CLionProjects/Praktikum5/ConsoleInterface.h
+random
+-
+
+C:/Users/MrPark/CLionProjects/Praktikum5/main.cpp
+bits/stdc++.h
+-
+exception
+-
+ConsoleInterface.h
+C:/Users/MrPark/CLionProjects/Praktikum5/ConsoleInterface.h
+Test.h
+C:/Users/MrPark/CLionProjects/Praktikum5/Test.h
 

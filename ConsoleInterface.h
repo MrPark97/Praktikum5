@@ -15,6 +15,10 @@ class ConsoleInterface {
 public:
     ConsoleInterface(char mode): k(0), l(0), m(0), n(0), mode(mode), vector_index(0), best_index(0), best_result(INF)
     {}
+    int getBestResult()
+    {
+        return best_result;
+    }
     int run();
     int step();
     int init();
